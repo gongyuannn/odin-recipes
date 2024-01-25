@@ -1,0 +1,88 @@
+/* style index html with 3 placards and hovering image */
+
+
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px
+}
+
+
+body {
+    background-color: #ffffff;
+}
+
+div.container {
+    background-color: #e7e7fd;
+    width: auto;
+    margin: 20px;
+    /* padding: 10px; */
+}
+
+h1.title {
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+    background-color: #000000;
+    color:#ffffff;
+    padding: 8px;
+    margin: 16px auto;
+    
+}
+
+div.imagetext {
+    position: relative;
+    width: 400px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    box-sizing: border-box;
+    width: 400px;
+    height: auto;
+    padding: 55px;
+    color: #ffffff;
+    background-color: #131313;
+    opacity: 0;
+    transition: .5s ease;
+    /* display: none; */
+}
+
+.imagetext:hover .overlay {
+    /* display: block; */
+    opacity: 1;
+  }
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+h2 {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.index {
+    text-align: center;
+    list-style-position: inside;
+}
+
+
