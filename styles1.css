@@ -1,4 +1,4 @@
-/* style index html with 3 placards and hovering image */
+/* style index html with 3 placards  */
 
 
 * {
@@ -15,7 +15,7 @@ div.container {
     background-color: #e7e7fd;
     width: auto;
     margin: 20px;
-    /* padding: 10px; */
+    padding-bottom: 5px;
 }
 
 h1.title {
@@ -75,14 +75,14 @@ div.imagetext {
 }
 
 
-h2 {
-    font-size: 20px;
-    font-weight: 800;
-}
-
-.index {
+p.description, ul {
+    width: 100%;
+    margin: 10px auto;
     text-align: center;
-    list-style-position: inside;
+ }
+
+ul {
+    background-color: hsl(0, 0%, 100%, 50%);
+    width: 30%;
+    text-align: left;
 }
-
-
